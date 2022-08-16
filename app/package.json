@@ -1,0 +1,28 @@
+{
+  "name": "express-js-mysql-login-crud",
+  "version": "1.0.0",
+  "description": "1. Development Environment\r - node\r - javascript\r - express\r - mysql\r - ejs\r - rest API",
+  "main": "app.js",
+  "bin": {
+    "express-js-mysql-login-crud": "bin/www.js"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/www.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripthelight/node-express-js-mysql-login-crud.git"
+  },
+  "keywords": [],
+  "author": "Sin Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tripthelight/node-express-js-mysql-login-crud/issues"
+  },
+  "homepage": "https://github.com/tripthelight/node-express-js-mysql-login-crud#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
