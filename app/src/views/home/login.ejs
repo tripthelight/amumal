@@ -5,12 +5,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LOGIN</title>
+
+  <link rel="stylesheet" href="/css/home/login.css" />
 </head>
 <body>
-  
-  <input type="text" placeholder="아이디" id="id" /><br />
-  <input type="text" placeholder="비밀번호" id="password" /><br />
-  <button>로그인</button>
+  <form action="" class="login-form">
+    <input type="text" placeholder="아이디" id="id" /><br />
+    <input type="password" placeholder="비밀번호" id="password" /><br />
+    <!-- <button class="btn-login">로그인</button> -->
+    <p id="button" class="btn-login">로그인</p>
+    <a href="/register" class="btn-register">Create an account</a>
+  </form>
 
   <script src="/js/home/login.js" defer></script>
 </body>

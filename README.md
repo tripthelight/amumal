@@ -17,6 +17,7 @@
 - Indent-rainbow
 - Auto rename tag
 - HTML CSS SUPPORT
+- json pretty printer(ctrl + shift + j)
 
 
 3. npm install
@@ -27,5 +28,5 @@
 
 
 4. youtube url
-- https://www.youtube.com/watch?v=Th-HDyPCewA&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=22&ab_channel=%EC%9A%B0%EB%A6%AC%EB%B0%8B_woorimIT
+- https://www.youtube.com/watch?v=0veQoK9V07k&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=29&ab_channel=%EC%9A%B0%EB%A6%AC%EB%B0%8B_woorimIT
 - 00:00
