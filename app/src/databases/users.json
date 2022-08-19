@@ -2,22 +2,16 @@
 	"id": [
 		"iaaa",
 		"ibbb",
-		"iccc",
-		"구독과",
-		"나나나"
+		"iccc"
 	],
 	"password": [
 		"paaa",
 		"pbbb",
-		"pccc",
-		"1234",
-		"1234"
+		"pccc"
 	],
 	"name": [
 		"naaa",
 		"nbbb",
-		"nccc",
-		"좋아요",
-		"나나나"
+		"nccc"
 	]
 }

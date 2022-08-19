@@ -28,5 +28,5 @@
 
 
 4. youtube url
-- https://www.youtube.com/watch?v=0veQoK9V07k&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=29&ab_channel=%EC%9A%B0%EB%A6%AC%EB%B0%8B_woorimIT
+- https://www.youtube.com/watch?v=PV4RNoSXQIo&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=30&ab_channel=%EC%9A%B0%EB%A6%AC%EB%B0%8B_woorimIT
 - 00:00
