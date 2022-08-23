@@ -1,6 +1,6 @@
 'use strict';
 
-const UserStorage = require('../models/UserStorage');
+const UserStorage = require('./UserStorage');
 
 class User {
     constructor(body) {

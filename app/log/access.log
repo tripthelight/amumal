@@ -1,5 +1,0 @@
-[0mGET /login [36m304[0m 12.677 ms - -[0m
-[0mGET /register [32m200[0m 3.018 ms - 887[0m
-[0mGET /register [36m304[0m 10.783 ms - -[0m
-[0mGET /login [36m304[0m 2.414 ms - -[0m
-::1 - - [23/Aug/2022:04:08:12 +0000] "GET /login HTTP/1.1" 304 -

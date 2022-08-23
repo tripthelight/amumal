@@ -5,8 +5,7 @@
 - javascript
 - ejs
 - express
-- mysql
-- rest API
+- filesystem
 
 
 2. vscode extension
@@ -29,8 +28,3 @@
 - npm i -s dotenv
 - npm i -s morgan
 - npm i -s app-root-path
-
-
-4. youtube url
-- https://www.youtube.com/watch?v=ykhTdWVkuC8&list=PLSK4WsJ8JS4cQ-niGNum4bkK_THHOizTs&index=34&ab_channel=%EC%9A%B0%EB%A6%AC%EB%B0%8B_woorimIT
-- 00:00
