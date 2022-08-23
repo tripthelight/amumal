@@ -27,6 +27,8 @@
 - npm i body-parser -s
 - npm i -s mysql
 - npm i -s dotenv
+- npm i -s morgan
+- npm i -s app-root-path
 
 
 4. youtube url
