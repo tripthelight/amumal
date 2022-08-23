@@ -9,7 +9,7 @@ const app = express();
 dotenv.config();
 
 // 라우팅
-const home = require('./src/routes/home');
+const home = require('./src/routes');
 
 // 앱 세팅
 app.set('views', './src/views');
