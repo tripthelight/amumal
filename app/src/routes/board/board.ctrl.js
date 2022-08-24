@@ -2,12 +2,26 @@
 
 const Board = require("../../models/Board");
 const BoardStorage = require("../../models/BoardStorage");
-
+const fs = require('fs');
 
 
 const output = {
   board: (req, res) => {
     res.render('home/board');
+  },
+  boardList: (req, res) => {
+    let boardLists;
+    fs.readFile('./src/databases/board.json', (err, data) => {
+      if(err) throw err;
+      boardLists = JSON.parse(data);
+      processFile(boardLists); 
+    });
+    let processFile = (list) => {
+      // res.json(list);
+
+      res.setHeader('Content-Type', 'application/json');
+      res.send(JSON.stringify(list));
+    }
   }
 };
 

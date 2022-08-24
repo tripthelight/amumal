@@ -34,3 +34,34 @@ function boardWriteEvent() {
     console.log(err);
   })
 }
+
+// 아무말 json 받아오기
+// fetch('http://localhost:3000/boardList')
+//   .then((response) => response.json()) 
+//   .then((json) => {
+//     viewBoardList(json);
+//   });
+
+
+startShowingMessage();
+async function startShowingMessage(){
+  // setInterval(async function(){
+    await fetch('http://localhost:3000/boardList')
+      .then((response) => response.json()) 
+      .then((json) => {
+        viewBoardList(json)
+      })
+      .catch((error) => {console.log(error);});
+  // }, 1000);
+}
+
+let viewBoardList = (boardList) => {
+  let HTML = '';
+  const BOARD_LIST = document.querySelector('.board-list');
+  if (BOARD_LIST) {
+    boardList.description.map(item => {
+      HTML += `<li>${item}</li>`;
+      BOARD_LIST.innerHTML = HTML;
+    });
+  }
+}
