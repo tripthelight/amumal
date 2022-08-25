@@ -13,8 +13,6 @@ function boardWriteEvent() {
     board: board.value
   };
 
-  console.log('req : ',req);
-
   fetch('/board', {
     method: 'POST',
     headers: {
@@ -29,6 +27,7 @@ function boardWriteEvent() {
     } else {
       console.log(res.msg);
     }
+    valueInit();
   })
   .catch((err) => {
     console.log(err);
@@ -42,8 +41,6 @@ function boardWriteEvent() {
 //     viewBoardList(json);
 //   });
 
-
-startShowingMessage();
 async function startShowingMessage(){
   // setInterval(async function(){
     await fetch('http://localhost:3000/boardList')
@@ -54,6 +51,7 @@ async function startShowingMessage(){
       .catch((error) => {console.log(error);});
   // }, 1000);
 }
+startShowingMessage();
 
 let viewBoardList = (boardList) => {
   let HTML = '';
@@ -64,4 +62,9 @@ let viewBoardList = (boardList) => {
       BOARD_LIST.innerHTML = HTML;
     });
   }
+}
+
+// valueInit
+function valueInit() {
+  board.value = '';
 }
