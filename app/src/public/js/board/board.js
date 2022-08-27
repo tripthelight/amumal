@@ -80,21 +80,5 @@ let viewBoardList = (boardList) => {
     }
   }
 
-
-
-
-
-
-  /*
-  let HTML = '';
-  if (BOARD_LIST) {
-    boardList.description.map(item => {
-      HTML += `<li>${item}</li>`;
-      BOARD_LIST.innerHTML = HTML;
-    });
-  }
-  */
-}
-
 // value init
 let valueInit = () => board.value = '';
