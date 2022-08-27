@@ -79,6 +79,7 @@ let viewBoardList = (boardList) => {
       }
     }
   }
+}
 
 // value init
 let valueInit = () => board.value = '';
