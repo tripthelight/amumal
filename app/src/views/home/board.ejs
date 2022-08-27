@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>아무말 대잔치</title>
+
+    <link rel="stylesheet" href="/css/board/board.css" />
 </head>
 <body>
-    <form action="" class="board-form">
-        <input type="text" placeholder="그냥 아무말이나 하는 거야" id="board" />
-        <a onClick="javascript:void(0)" id="btnBoard" class="btn-login">SEND</a>
-    </form>
-
     <ul class="board-list"></ul>
+    
+    <input type="text" placeholder="그냥 아무말이나 하는 거야" id="board" onkeyup="boardWriteEventEnder(event)"/>
+    <label for="board" class="btn-login" id="btnBoard">SEND</label>
 
     <script src="/js/board/board.js" defer></script>
 </body>
